@@ -20,14 +20,14 @@ body {
     margin-left: -48px;
     top: 15px;
     cursor: pointer;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 25px;
     text-align: center;
     font-size: 22px;
 }
 
 #info {
-    color: white;
+    color: rgb(254, 59, 0);
     position: fixed;
     bottom: 15px;
     right: 10px;

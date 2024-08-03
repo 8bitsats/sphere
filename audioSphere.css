@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#stats {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#play {
+    position: fixed;
+    width: 95px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    left: 50%;
+    margin-left: -48px;
+    top: 15px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 22px;
+}
+
+#info {
+    color: white;
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+audio {
+    position: fixed;
+    width: 300px;
+    left: 50%;
+    top: 15px;
+    margin-left: -150px;
+    display: none; /* Start hidden */
+}
